@@ -53,6 +53,6 @@ struct MeetingTimerView_Previews: PreviewProvider {
     
     
     static var previews: some View {
-        MeetingTimerView(speakers: speakers, theme: .yellow)
+        MeetingTimerView(speakers: speakers, isRecording: true, theme: .yellow)
     }
 }
